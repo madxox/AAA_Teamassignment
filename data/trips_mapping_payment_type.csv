@@ -1,0 +1,9 @@
+payment_type,payment_type_encoded
+Prcard,0
+Mobile,1
+Credit Card,2
+Cash,3
+Unknown,4
+No Charge,5
+Dispute,6
+Prepaid,7
