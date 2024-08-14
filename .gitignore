@@ -1,2 +1,3 @@
 data/taxidata.csv
 prep_taxidata.csv
+*.parquet
