@@ -1,3 +1,37 @@
+"""
+Setup Instructions for Running This Selenium Script:
+
+1. Install Dependencies:
+   - Use pip to install required Python libraries:
+     ```
+     pip install selenium beautifulsoup4
+     ```
+2. Download WebDriver:
+   - This script uses Selenium, which requires a WebDriver to interface with a chosen web browser.
+   - For Google Chrome:
+     - Ensure Google Chrome is installed on the machine.
+     - Download ChromeDriver matching the version of Chrome from: https://chromedriver.chromium.org/downloads
+     - Place ChromeDriver in a standard location:
+       - Windows: C:\\WebDriver\\bin
+       - MacOS/Linux: /usr/local/bin
+3. Set Environment Variable:
+   - Add the path to ChromeDriver to your system’s environment variables:
+     - Windows:
+       - Right-click on 'This PC' or 'Computer' on the desktop or in Explorer.
+       - Select Properties > Advanced System Settings > Environment Variables.
+       - Add the ChromeDriver path to the 'Path' variable.
+     - MacOS/Linux:
+       - Open the terminal.
+       - Add to the .bashrc or .zshrc file:
+         ```
+         export PATH=$PATH:/usr/local/bin
+         ```
+       - Run `source ~/.bashrc` or the corresponding file to apply changes.
+4. Code Adjustment:
+   - The path to the WebDriver is not hardcoded in the script; it is loaded from a configuration file (config.py).
+   - Ensure that the `chromeDriverPath` variable in the `config.py` file correctly specifies the path to ChromeDriver.
+"""
+
 import csv
 from bs4 import BeautifulSoup
 from selenium import webdriver
