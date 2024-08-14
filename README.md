@@ -4,7 +4,4 @@ Environment:
 
 Configurations:
 
-Merge taxi and weather dataset: run match_weather_data_with_taxi_data.ipynb
-
-Jonathan 3.6.24:
--Comments on missing weather values at the end of match_weather_data_with_taxi_data.ipynb
+Get the pre-processed taxi trip dataset, augmented by weather data (output of 01_preparation_taxidata.ipynb followed by 01b_match_weather_data_with_taxi_data.ipynb): https://uni-koeln.sciebo.de/s/mCdIxvBvCsLZrth
